@@ -1,7 +1,8 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
+import { useLocation } from "react-router-dom";
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import "../App.css";
 
 
 function Navb() {
@@ -43,22 +44,22 @@ function Navb() {
     //   </div>
     // </nav>
 
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Navbar.Brand href="/">Lindsey Bordner</Navbar.Brand>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="mr-auto">
-      <Nav.Link href="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>Contact</Nav.Link>
-      <Nav.Link href="/portfolio"className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>Portfolio</Nav.Link>
-    </Nav>
-    {/* <Nav>
+    <Navbar className="navb" collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar.Brand href="/">Lindsey Bordner</Navbar.Brand>
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="mr-auto">
+          <Nav.Link href="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>Contact</Nav.Link>
+          <Nav.Link href="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>Portfolio</Nav.Link>
+        </Nav>
+        {/* <Nav>
       <Nav.Link href="#deets">More deets</Nav.Link>
       <Nav.Link eventKey={2} href="#memes">
         Dank memes
       </Nav.Link>
     </Nav> */}
-  </Navbar.Collapse>
-</Navbar>
+      </Navbar.Collapse>
+    </Navbar>
   );
 }
 

@@ -10,14 +10,14 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
-      <div>
+    // <body className="background">
+      <Router>
         <Navb />
         <Route exact path="/" component={Home} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
-      </div>
-    </Router>
+      </Router>
+    // </body>
   );
 }
 

@@ -1,5 +1,63 @@
+body, html {
+  height: 100%;
+  margin: 0;
+
+  background-image: url("./images/swirlyWood.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+/* .navb {
+  width: 100vw;
+}  */
+
+/* .background { */
+  /* background-image: url("./images/swirlyWood.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh; */
+  /* margin: 0;
+  padding: 0; */
+/* } */
+
+h1 {
+  margin-top: 5%;
+  text-align: center;
+  color: white;
+  filter: drop-shadow(0 0 0.25rem rgb(70, 70, 70)); 
+}
+
+p {
+  padding: 3% 4% 1% 4%;
+}
+
 .headshot {
-  
+  margin: 3% 4% 1% 4%;
+}
+
+.card {
+  margin: 3%;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  width: 90%;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 /* .App {
