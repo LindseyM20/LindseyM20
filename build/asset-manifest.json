@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5638c35c.chunk.css",
+    "main.js": "/static/js/main.8aa8f774.chunk.js",
+    "main.js.map": "/static/js/main.8aa8f774.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.120840cb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.120840cb.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.4e2b5828.chunk.js": "/static/js/2.4e2b5828.chunk.js",
+    "static/js/2.4e2b5828.chunk.js.map": "/static/js/2.4e2b5828.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.5638c35c.chunk.css.map": "/static/css/main.5638c35c.chunk.css.map",
+    "static/js/2.4e2b5828.chunk.js.LICENSE.txt": "/static/js/2.4e2b5828.chunk.js.LICENSE.txt",
+    "static/media/burger.77f68717.png": "/static/media/burger.77f68717.png",
+    "static/media/headshot.7e1f49dc.jpg": "/static/media/headshot.7e1f49dc.jpg",
+    "static/media/password.a41c09e2.png": "/static/media/password.a41c09e2.png",
+    "static/media/planner.5564493c.gif": "/static/media/planner.5564493c.gif",
+    "static/media/quiz.11a274d4.png": "/static/media/quiz.11a274d4.png",
+    "static/media/quote.9d725bc0.png": "/static/media/quote.9d725bc0.png",
+    "static/media/rolodex.9d482d8a.png": "/static/media/rolodex.9d482d8a.png",
+    "static/media/App.css": "/static/media/swirlyWood.74ed2c0b.jpg",
+    "static/media/weather.70bf4cf8.png": "/static/media/weather.70bf4cf8.png",
+    "static/media/xkcdaily.051af33e.png": "/static/media/xkcdaily.051af33e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.120840cb.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.4e2b5828.chunk.js",
+    "static/css/main.5638c35c.chunk.css",
+    "static/js/main.8aa8f774.chunk.js"
+  ]
+}
