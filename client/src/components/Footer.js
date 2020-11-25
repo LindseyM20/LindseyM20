@@ -1,28 +1,35 @@
 import React from "react";
 import "../App.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
+
+const githubIcon = <FontAwesomeIcon icon={faGithub} />
+const linkedinIcon = <FontAwesomeIcon icon={faLinkedinIn} />
+const mailIcon = <FontAwesomeIcon icon={faEnvelope} />
 
 function Footer() {
   return (
-    <footer>
-      <div className="icons">
+    <div className="footerContainer">
+      <footer>
 
         <a href="https://github.com/LindseyM20" rel="noopener noreferrer" target="_blank">
-          hello!!!
-          {/* <img src={github} className="icon-github" alt="Github Icon" /> */}
+          {githubIcon}
         </a>
 
-        {/* <a href="https://www.linkedin.com/in/lindsey-bordner/" rel="noopener noreferrer" target="_blank">
-          <img src={linkedin} className="icon-linkedin" alt="LinkedinIcon" />
+        <a href="https://www.linkedin.com/in/lindsey-bordner/" rel="noopener noreferrer" target="_blank">
+          {linkedinIcon}
         </a>
 
         <a href="mailto:lindsey.bordner@gmail.com" rel="noopener noreferrer" target="_blank">
-          <img src={email} className="icon-mail" alt="EmailIcon" />
-        </a> */}
+          {mailIcon}
+        </a>
+      </footer>
+    </div>
 
-      </div>
-    </footer>
   );
-  
+
 }
 
 export default Footer;

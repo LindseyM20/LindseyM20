@@ -8,7 +8,7 @@ const bio2 = "Lindsey holds degrees from the University of Minnesota and the Uni
 function Home() {
   return (
     <div className="about">
-      <h1>MEET LINDSEY</h1>
+      <h1>Meet Lindsey</h1>
       <img
         className="headshot img-fluid float-left"
         src={Image}

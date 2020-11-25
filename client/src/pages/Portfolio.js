@@ -8,8 +8,8 @@ import "../App.css";
 function Portfolio() {
 
   return (
-    <Container className="container">
-      <h1>PORTFOLIO</h1>
+    <Container className="cardsContainer">
+      <h1>Portfolio</h1>
       {/* <Row className="row"> */}
         {projects.map(project => (
           <Cards

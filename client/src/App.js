@@ -11,7 +11,7 @@ import './App.css';
 
 function App() {
   return (
-    <body className="background">
+    <body className="page">
       <Router>
         <Navb />
         <Route exact path="/" component={Home} />

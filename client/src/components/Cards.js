@@ -12,7 +12,7 @@ function Cards(props) {
         <Card.Img className="cardImg" variant="top" src={props.image} alt={props.name} />
       </div>
 
-      <Card.Body className="cardBody">
+      <Card.Body className="cardBody" style={{backgroundColor: (245, 245, 245, 0.4)}} >
         <Card.Title>{props.name}</Card.Title>
         <Card.Text>
           {props.description}
