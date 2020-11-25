@@ -7,16 +7,17 @@ const bio2 = "Lindsey holds degrees from the University of Minnesota and the Uni
 
 function Home() {
   return (
-    <div>
-      <h1>This page is under construction. Please excuse the mess!</h1>
-      <img 
+    <div className="about">
+      <h1>MEET LINDSEY</h1>
+      <img
         className="headshot img-fluid float-left"
-        src={Image} 
-        alt="Lindsey's headshot" 
+        src={Image}
+        alt="Lindsey's headshot"
       />
-      {/* <img class="headshot img-fluid float-left" src="./images/headshot.jpg" alt="Lindsey's headshot"> */}
-      <p>{bio1}</p>
-      <p>{bio2}</p>
+      <div className="bio">
+        <p>{bio1}</p>
+        <p>{bio2}</p>
+      </div>
     </div>
   );
 }
