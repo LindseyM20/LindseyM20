@@ -17,8 +17,8 @@ function Cards(props) {
         <Card.Text>
           {props.description}
         </Card.Text>
-        <Card.Link href={props.deploy}>Deploy</Card.Link>
-        <Card.Link href={props.repository}>Repository</Card.Link>
+        <Card.Link href={props.deploy} target="_blank">Deploy</Card.Link>
+        <Card.Link href={props.repository} target="_blank">Repository</Card.Link>
       </Card.Body>
     </Card>
   );

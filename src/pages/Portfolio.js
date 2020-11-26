@@ -18,8 +18,8 @@ function Portfolio() {
             name={project.name}
             image={project.image}
             description={project.description}
-            occupation={project.occupation}
-            location={project.location}
+            deploy={project.deploy}
+            repository={project.repository}
           />
         ))}
       {/* </Row> */}
