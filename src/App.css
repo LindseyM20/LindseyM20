@@ -76,6 +76,18 @@ p {
   object-fit: contain;
 }
 
+.cardTitle, .repoLink {
+  color: #f7f7f7;
+}
+
+.cardTitle:hover, .repoLink:hover {
+  color: #8b8c8d;
+}
+
+div > footer > a:hover {
+  color: #8b8c8d;
+}
+
 .cardBody {
   color: #f7f7f7;
   background: #292b2c;

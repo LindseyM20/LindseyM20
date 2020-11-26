@@ -12,13 +12,12 @@ function Cards(props) {
         <Card.Img className="cardImg" variant="top" src={props.image} alt={props.name} />
       </div>
 
-      <Card.Body className="cardBody" style={{backgroundColor: (245, 245, 245, 0.4)}} >
-        <Card.Title>{props.name}</Card.Title>
-        <Card.Text>
-          {props.description}
-        </Card.Text>
-        <Card.Link href={props.deploy} target="_blank">Deploy</Card.Link>
-        <Card.Link href={props.repository} target="_blank">Repository</Card.Link>
+      <Card.Body className="cardBody" style={{ backgroundColor: (245, 245, 245, 0.4) }} >
+        <Card.Title>
+          <Card.Link href={props.deploy} target="_blank" className="cardTitle">{props.name}</Card.Link>
+        </Card.Title>
+        <Card.Text>{props.description}</Card.Text>
+        <Card.Link href={props.repository} target="_blank"  className="repoLink">Repository</Card.Link>
       </Card.Body>
     </Card>
   );
