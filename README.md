@@ -39,7 +39,7 @@
 
 
   ## License
-  The contents of this repository are protected under the Unlicense
+  The contents of this repository are protected under the MIT License
 
   ## Questions
   Follow me on GitHub at https://github.com/LindseyM20 <br>
