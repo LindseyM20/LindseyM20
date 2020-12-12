@@ -6,9 +6,18 @@ import quote from "./images/quote.png";
 import password from "./images/password.png";
 import planner from "./images/planner.gif";
 import quiz from "./images/quiz.png";
+import rpg from "./images/Pretty-Dorky.gif";
 
 
 const projects = [
+  {
+    "id": 9,
+    "name": "Pretty Dorky",
+    "image": rpg,
+    "description": "Classic combination RPG/runner game that pokes fun at coder stereotypes. Built with React, Firebase/Firestore user authentication, MongoDB/Mongoose, Node, Express, JavaScript, JSX, HTML, and CSS keyframe and sprite animation.",
+    "deploy": "https://pretty-dorky.herokuapp.com/",
+    "repository": "https://github.com/LindseyM20/team-rpg"
+  },
   {
     "id": 1,
     "name": "XKCDaily",

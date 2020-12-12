@@ -49,7 +49,7 @@ function Navb() {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>Contact</Nav.Link>
+          {/* <Nav.Link href="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>Contact</Nav.Link> */}
           <Nav.Link href="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>Portfolio</Nav.Link>
         </Nav>
         {/* <Nav>
